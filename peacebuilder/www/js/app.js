@@ -70,11 +70,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
       }
     })
 
-  .state('lang', {
-    url: 'account/lang',
+  .state('tab.lang', {
+    url: '/account/lang',
     views: {
       'tab-account': {
-        templateUrl: 'templates/lang-change.html',
+        templateUrl: 'templates/lang.html',
         //controller: 'AccountCtrl'
       }
     }

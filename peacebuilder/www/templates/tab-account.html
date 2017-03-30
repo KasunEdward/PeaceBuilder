@@ -1,7 +1,7 @@
 <ion-view view-title="{{ 'settings.title' | translate }}">
   <ion-content>
     <ion-list>
-      <ion-item ng-click="">
+      <ion-item href="#/tab/account/lang">
         <i class="icon ion-document"></i>
         {{ 'settings.language' | translate}}
         <select ng-options="language | translate for language in languages" ng-value="language" ng-model="language" ng-change="updateLanguage(language)"></select>
