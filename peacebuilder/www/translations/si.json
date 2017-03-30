@@ -1,4 +1,13 @@
 {
-  "TITLE":"aaaaaaaaaaaa",
-  "MESSAGE":"aaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  "main page":{
+    "title":"ඔබ සාදරයෙන් පිළිගනිමු",
+    "message":""
+  },
+  "Event map":{
+    "title":"ඉසව් සැලසුම"
+  },
+  "Settings":{
+    "title":"සැකසුම"
+  }
+
 }
