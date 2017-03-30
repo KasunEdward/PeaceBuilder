@@ -11,10 +11,10 @@
     "language" : "භාෂාව",
     "user profile":{
       "title":"පරිශීලක පැතිකඩ",
-      "organized":"Organized events",
-      "participated":"Participated events",
-      "upcoming":"Upcoming events"
-    }
+      "organized":"සංවිධානය කරන ලද ඉසව්",
+      "participated":"සහභාගී වූ ඉසව්",
+      "upcoming":"ඉදිරි ඉසව්"
+    },
     "about":"පිළිබඳව"
   }
 
