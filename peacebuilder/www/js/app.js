@@ -75,7 +75,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
     views: {
       'tab-account': {
         templateUrl: 'templates/lang.html',
-        //controller: 'AccountCtrl'
+        controller: 'LangCtrl'
       }
     }
   })

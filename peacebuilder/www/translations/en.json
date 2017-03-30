@@ -8,7 +8,7 @@
   },
   "settings":{
     "title":"Settings",
-    "language" : "Language : ",
+    "language" : "Language",
     "user profile":"User profile",
     "about":"About"
   }
