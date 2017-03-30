@@ -1,6 +1,16 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope,$translate,$rootScope) {
+ //  var ctrl=this;
+ //  $scope.language=null;
+ //  $scope.languages=['en','sv'];
+ // $scope.updateLanguage=function(language){
+ //   $rootScope.var="kkkkkk";
+ //   console.log($rootScope.var);
+ //    $translate.use(language);
+ //  }
+  $translate.use($rootScope.language);
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
@@ -21,8 +31,17 @@ angular.module('starter.controllers', [])
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
-.controller('AccountCtrl', function($scope) {
+.controller('AccountCtrl', function($scope,$translate,$rootScope) {
+  var ctrl=this;
+  $scope.language=null;
+  $scope.languages=['en','sv'];
+  $scope.updateLanguage=function(language){
+    $rootScope.var="sv";
+    console.log($rootScope.var);
+    $translate.use(language);
+  }
   $scope.settings = {
     enableFriends: true
   };
+
 });

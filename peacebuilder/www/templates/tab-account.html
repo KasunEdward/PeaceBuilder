@@ -1,9 +1,18 @@
 <ion-view view-title="Account">
   <ion-content>
     <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
+      <ion-item ng-click="">
+        <i class="icon ion-document"></i>
+        <select ng-options="language | translate for language in languages" ng-value="language" ng-model="language" ng-change="updateLanguage(language)"></select>
+      </ion-item>
+      <ion-item ng-click="">
+        <i class="icon ion-person"></i>
+        User Profile
+      </ion-item>
+      <ion-item ng-click="">
+        <i class="icon ion-information-circled"></i>
+        About
+      </ion-item>
     </ion-list>
   </ion-content>
 </ion-view>
