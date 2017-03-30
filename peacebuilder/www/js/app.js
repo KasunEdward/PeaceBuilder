@@ -96,6 +96,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
           templateUrl : 'templates/about.html'
         }
       }
+    })
+    .state('tab.user profile',{
+      url: '/account/user profile',
+      views:{
+        'tab-account':{
+          templateUrl : 'templates/user-profile.html'
+        }
+      }
     });
 
   // if none of the above states are matched, use this as the fallback

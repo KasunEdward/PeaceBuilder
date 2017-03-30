@@ -9,7 +9,12 @@
   "settings":{
     "title":"Settings",
     "language" : "Language",
-    "user profile":"User profile",
+    "user profile":{
+      "title":"User profile",
+      "organized":"Organized events",
+      "participated":"Participated events",
+      "upcoming":"Upcoming events"
+    },
     "about":"About"
   }
 

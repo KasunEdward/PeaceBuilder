@@ -4,12 +4,17 @@
     "message":"මෙය ටැබ් පදනම් කරගත් යෙදුම් සඳහා Ionic ආරම්භක නිදසුනක් වේ. වෙනත් සූදානම් කරන ලද සැකිලි සඳහා, පරීක්ෂා කරන්න"
   },
   "event map":{
-    "title":"ඉසව් සැලසුම"
+    "title":"ඉසව් සිතියම"
   },
   "settings":{
     "title":"සැකසුම",
     "language" : "භාෂාව",
-    "user profile":"පරිශීලක පැතිකඩ",
+    "user profile":{
+      "title":"පරිශීලක පැතිකඩ",
+      "organized":"Organized events",
+      "participated":"Participated events",
+      "upcoming":"Upcoming events"
+    }
     "about":"පිළිබඳව"
   }
 
