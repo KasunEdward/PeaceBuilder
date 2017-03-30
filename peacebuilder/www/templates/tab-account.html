@@ -3,13 +3,14 @@
     <ion-list>
       <ion-item ng-click="">
         <i class="icon ion-document"></i>
+        {{ 'settings.language' | translate}}
         <select ng-options="language | translate for language in languages" ng-value="language" ng-model="language" ng-change="updateLanguage(language)"></select>
       </ion-item>
       <ion-item ng-click="">
         <i class="icon ion-person"></i>
         {{ 'settings.user profile' | translate }}
       </ion-item>
-      <ion-item ng-click="">
+      <ion-item href="#/tab/account/about">
         <i class="icon ion-information-circled"></i>
         {{ 'settings.about' | translate }}
       </ion-item>
