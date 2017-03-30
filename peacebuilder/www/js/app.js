@@ -83,18 +83,23 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
 
-  $translateProvider.translations('en', {
-    TITLE: 'Welcome!',
-    MESSAGE: 'This app supports your lanaguage!',
-    en: 'English',
-    sv: 'Svenska'
-  })
-    .translations('sv', {
-      TITLE: 'කසුන්',
-      MESSAGE: 'Denna app stöder ditt språk!',
-      en: 'English',
-      sv: 'Svenska'
-    });
+  // $translateProvider.translations('en', {
+  //   TITLE: 'Welcome!',
+  //   MESSAGE: 'This app supports your lanaguage!',
+  //   en: 'English',
+  //   sv: 'Svenska'
+  // })
+  //   .translations('sv', {
+  //     TITLE: 'කසුන්',
+  //     MESSAGE: 'Denna app stöder ditt språk!',
+  //     en: 'English',
+  //     sv: 'Svenska'
+  //   });
+  $translateProvider
+    .useStaticFilesLoader({
+      prefix: '/translations/',
+      suffix: '.json'
+    })
 
   $translateProvider.preferredLanguage('en');
 

@@ -34,9 +34,9 @@ angular.module('starter.controllers', [])
 .controller('AccountCtrl', function($scope,$translate,$rootScope) {
   var ctrl=this;
   $scope.language=null;
-  $scope.languages=['en','sv'];
+  $scope.languages=['en','si','ta'];
   $scope.updateLanguage=function(language){
-    $rootScope.var="sv";
+    $rootScope.var=language;
     console.log($rootScope.var);
     $translate.use(language);
   }
