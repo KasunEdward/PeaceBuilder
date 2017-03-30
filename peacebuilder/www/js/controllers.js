@@ -53,4 +53,19 @@ angular.module('starter.controllers', [])
     enableFriends: true
   };
 
+})
+
+  .controller('LangCtrl', function($scope,$translate,$rootScope) {
+  var ctrl=this;
+  $scope.language=null;
+  $scope.languages=['en','si','ta'];
+  $scope.updateLanguage=function(language){
+    $rootScope.var=language;
+    console.log(language);
+    $translate.use(language);
+  }
+  $scope.settings = {
+    enableFriends: true
+  };
+
 });

@@ -75,7 +75,7 @@ angular.module('starter', ['ionic','ngCordova','starter.controllers', 'starter.s
     views: {
       'tab-account': {
         templateUrl: 'templates/lang.html',
-        //controller: 'AccountCtrl'
+        controller: 'LangCtrl'
       }
     }
   })
