@@ -8,7 +8,8 @@
   },
   "settings":{
     "title":"Settings",
-    "user profile":"User profile"
+    "user profile":"User profile",
+    "about":"About"
   }
 
 }

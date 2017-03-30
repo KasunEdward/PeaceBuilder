@@ -3,11 +3,13 @@
     "title":"ඔබ සාදරයෙන් පිළිගනිමු",
     "message":""
   },
-  "Event map":{
+  "event map":{
     "title":"ඉසව් සැලසුම"
   },
-  "Settings":{
-    "title":"සැකසුම"
+  "settings":{
+    "title":"සැකසුම",
+    "user profile":"පරිශීලක පැතිකඩ",
+    "about":"පිළිබඳව"
   }
 
 }
