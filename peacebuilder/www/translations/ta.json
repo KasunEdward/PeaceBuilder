@@ -1,3 +1,15 @@
 {
-
+  "main page":{
+    "title":"நல்வரவு",
+    "message":""
+  },
+  "event map":{
+    "title":"நிகழ்வு வரைபடம்"
+  },
+  "settings":{
+    "title":"அமைவுகள்",
+    "language" : "மொழி: ",
+    "user profile":"பயனர் விவரம்",
+    "about":"பற்றி"
+  }
 }

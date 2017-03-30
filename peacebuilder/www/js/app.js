@@ -70,6 +70,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
       }
     })
 
+  .state('tab.lang', {
+    url: '/account/lang',
+    views: {
+      'tab-account': {
+        templateUrl: 'templates/lang.html',
+        //controller: 'AccountCtrl'
+      }
+    }
+  })
   .state('tab.account', {
     url: '/account',
     views: {
@@ -78,7 +87,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
         controller: 'AccountCtrl'
       }
     }
-  });
+  })
+
+    .state('tab.about',{
+      url: '/account/about',
+      views:{
+        'tab-account':{
+          templateUrl : 'templates/about.html'
+        }
+      }
+    });
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
@@ -90,8 +108,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','p
   //   sv: 'Svenska'
   // })
   //   .translations('sv', {
-  //     TITLE: 'කසුන්',
-  //     MESSAGE: 'Denna app stöder ditt språk!',
+  //     TITLE: 'à¶šà·ƒà·”à¶±à·Š',
+  //     MESSAGE: 'Denna app stÃ¶der ditt sprÃ¥k!',
   //     en: 'English',
   //     sv: 'Svenska'
   //   });
