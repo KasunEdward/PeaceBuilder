@@ -1,7 +1,7 @@
 {
   "main page":{
     "title":"Welcome",
-    "message":""
+    "message":"This is the Ionic starter for tabs-based apps. For other starters and ready-made templates, check out the"
   },
   "event map":{
     "title":"Event map"
