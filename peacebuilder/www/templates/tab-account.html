@@ -1,18 +1,18 @@
-<ion-view view-title="Account">
+<ion-view view-title="{{ 'settings.title' | translate }}">
   <ion-content>
     <ion-list>
-      <ion-item href="#/tabs/account/lang">
+      <ion-item ng-click="">
         <i class="icon ion-document"></i>
-        <!--<select ng-options="language | translate for language in languages" ng-value="language" ng-model="language" ng-change="updateLanguage(language)"></select>-->
-      aaaaa
+        {{ 'settings.language' | translate}}
+        <select ng-options="language | translate for language in languages" ng-value="language" ng-model="language" ng-change="updateLanguage(language)"></select>
       </ion-item>
       <ion-item ng-click="">
         <i class="icon ion-person"></i>
-        User Profile
+        {{ 'settings.user profile' | translate }}
       </ion-item>
-      <ion-item ng-click="">
+      <ion-item href="#/tab/account/about">
         <i class="icon ion-information-circled"></i>
-        About
+        {{ 'settings.about' | translate }}
       </ion-item>
     </ion-list>
   </ion-content>
