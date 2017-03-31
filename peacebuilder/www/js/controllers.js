@@ -7,6 +7,8 @@ angular.module('starter.controllers', [])
   $cordovaGeolocation.getCurrentPosition(options).then(function(position){
 
     var latLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+    //var latLng = new google.maps.LatLng(0, 0);
+
 
     var mapOptions = {
       center: latLng,
@@ -17,6 +19,7 @@ angular.module('starter.controllers', [])
     $scope.map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
   }, function(error){
+    console.log(error);
     console.log("Could not get location");
   });
 })
