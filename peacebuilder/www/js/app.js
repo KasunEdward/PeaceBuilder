@@ -98,10 +98,37 @@ angular.module('starter', ['ionic','ngCordova','starter.controllers', 'starter.s
       }
     })
     .state('tab.user profile',{
-      url: '/user profile',
+      url: '/user-profile',
       views:{
         'tab-user-profile':{
           templateUrl : 'templates/tab-user-profile.html'
+        }
+      }
+    })
+
+    .state('tab.organized',{
+      url: '/user-profile/organized',
+      views:{
+        'tab-user-profile':{
+          templateUrl : 'templates/organized-events.html'
+        }
+      }
+    })
+
+    .state('tab.participated',{
+      url: '/user-profile/participated',
+      views:{
+        'tab-user-profile':{
+          templateUrl : 'templates/participated-events.html'
+        }
+      }
+    })
+
+    .state('tab.upcoming',{
+      url: '/user-profile/upcoming',
+      views:{
+        'tab-user-profile':{
+          templateUrl : 'templates/upcoming-events.html'
         }
       }
     });
