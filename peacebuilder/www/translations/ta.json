@@ -9,12 +9,12 @@
   "settings":{
     "title":"அமைவுகள்",
     "language" : "மொழி",
-    "user profile":{
-      "title":"பயனர் விவரம்",
-      "organized":"ஏற்பாடு  நிகழ்வுகள்",
-      "participated":"கலந்து  நிகழ்வுகள்",
-      "upcoming":"எதிர்வரும்  நிகழ்வுகள்"
-    },
     "about":"பற்றி"
+  },
+  "user profile":{
+    "title":"பயனர் விவரம்",
+    "organized":"ஏற்பாடு  நிகழ்வுகள்",
+    "participated":"கலந்து  நிகழ்வுகள்",
+    "upcoming":"எதிர்வரும்  நிகழ்வுகள்"
   }
 }

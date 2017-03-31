@@ -9,13 +9,13 @@
   "settings":{
     "title":"Settings",
     "language" : "Language",
-    "user profile":{
-      "title":"User profile",
-      "organized":"Organized events",
-      "participated":"Participated events",
-      "upcoming":"Upcoming events"
-    },
     "about":"About"
+  },
+  "user profile":{
+    "title":"User profile",
+    "organized":"Organized events",
+    "participated":"Participated events",
+    "upcoming":"Upcoming events"
   }
 
 }

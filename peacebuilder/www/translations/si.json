@@ -9,13 +9,13 @@
   "settings":{
     "title":"සැකසුම",
     "language" : "භාෂාව",
-    "user profile":{
-      "title":"පරිශීලක පැතිකඩ",
-      "organized":"සංවිධානය කරන ලද ඉසව්",
-      "participated":"සහභාගී වූ ඉසව්",
-      "upcoming":"ඉදිරි ඉසව්"
-    },
     "about":"පිළිබඳව"
+  },
+  "user profile":{
+    "title":"පරිශීලක පැතිකඩ",
+    "organized":"සංවිධානය කරන ලද ඉසව්",
+    "participated":"සහභාගී වූ ඉසව්",
+    "upcoming":"ඉදිරි ඉසව්"
   }
 
 }

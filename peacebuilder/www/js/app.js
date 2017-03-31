@@ -98,10 +98,10 @@ angular.module('starter', ['ionic','ngCordova','starter.controllers', 'starter.s
       }
     })
     .state('tab.user profile',{
-      url: '/account/user profile',
+      url: '/user profile',
       views:{
-        'tab-account':{
-          templateUrl : 'templates/user-profile.html'
+        'tab-user-profile':{
+          templateUrl : 'templates/tab-user-profile.html'
         }
       }
     });
