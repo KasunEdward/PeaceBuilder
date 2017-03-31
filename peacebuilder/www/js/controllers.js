@@ -34,6 +34,7 @@ angular.module('starter.controllers', [])
   //});
 
   $scope.chats = Chats.all();
+  //console.log(Chats[0].face);
   $scope.remove = function(chat) {
     Chats.remove(chat);
   };
